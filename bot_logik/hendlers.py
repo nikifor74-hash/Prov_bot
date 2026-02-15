@@ -1,8 +1,8 @@
 import os
 
-from aiogram import Router, types, Dispatcher, Bot
+from aiogram import Router, types, Dispatcher
 from aiogram.filters import Command
-from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
+from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from dotenv import load_dotenv
 
 from bot_logik.chec_pr import check_subscription
